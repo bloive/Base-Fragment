@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/childFragment">
+    <fragment
+        android:id="@+id/childFragment"
+        android:name="com.example.basefragment.ChildFragment"
+        android:label="fragment_child"
+        tools:layout="@layout/fragment_child" />
+</navigation>
